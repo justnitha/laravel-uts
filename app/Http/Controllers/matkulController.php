@@ -13,7 +13,6 @@ class matkulController extends Controller
         
         $data_matkul = modelMatkul::all(); 
 
-        // Kirim data matkul ke view 'home'
         return view('matkul', compact('data_matkul'));
     }
 }
