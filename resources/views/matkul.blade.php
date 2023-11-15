@@ -2,7 +2,7 @@
 
 @section('content')
     <h5 class="text-center" style="margin:80px 0 0 0;">Mata Kuliah Semester 3</h5>
-    <table class="table table-info table-bordered fs-5 mt-5">
+    <table class="table table-info table-bordered fs-5 mt-5 shadow-lg">
     <thead>
         <tr>
         <th class="text-center">No</th>

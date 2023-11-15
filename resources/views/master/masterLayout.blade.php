@@ -4,18 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>UTS Web Framework</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link href="{{ asset('front/css/bootstrap.min.css') }}" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset('front/css/app.css') }}">
     </head>
-    <body class="antialiased">
+    <body class="antialiased" style="background-color:#FAF6F0">
         <div class="position-relative container mx-auto">
-            <div class="d-flex  justify-content-between align-items-end pt-4 px-3">
-                @include('master.header')
-                @include('master.navigate')
-            </div>
+            @include('master.header')
             <hr>
-            <section class="pt-5">
+            @include('master.navigate')
+            <section class="pt-">
                 @yield('content')
             </section>
             @include('master.footer')

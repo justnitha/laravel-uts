@@ -10,7 +10,7 @@ class HomeController extends Controller
         $data_mahasiswa = [
             'nim'       => '2201010547',
             'nama'      => 'Putu Ajust Putra Pratama',
-            'jurusan'   => 'Teknik Informatika',
+            'jurusan'   => 'Manajemen Data dan Informasi',
             'alamat'    => 'Banjar Batanbuah, Abiansemal, Badung',
             'hp'        => '08123456789',
             'hobi'      => 'Skateboard dan Mancing',
